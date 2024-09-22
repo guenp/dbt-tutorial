@@ -3,7 +3,7 @@ hello_world:
     dev:
       type: duckdb
       schema: main
-      path: md:dbt_tutorial
+      path: md:dbt_tutorial?MOTHERDUCK_TOKEN
       threads: 1
     local:
       type: duckdb

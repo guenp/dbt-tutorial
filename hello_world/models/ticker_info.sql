@@ -1,1 +1,1 @@
-select * from read_csv('s3://us-prd-motherduck-open-datasets/stocks/**/ticker_info_*.csv', filename = true)
+select * from read_csv('s3://us-prd-motherduck-open-datasets/stocks/**/ticker_info_*.csv', filename = true, union_by_name = true)
